@@ -1,0 +1,32 @@
+:root {
+  /*Colors*/
+  --light-blue: #3f51b5;
+  --dark-blue: #303f9f;
+  --purple: #7c4dff;
+  --light-amber: #ff6200;
+  --dark-amber: #ffa000;
+  --orange: #ff5722;
+  --gray: #252c30;
+  --black: #000;
+
+  /*Typography*/
+  --h1: 7.594rem;
+  --h2: 5.063rem;
+  --h3: 3.375rem;
+  --h4: 2.25rem;
+  --h5: 1.5rem;
+
+  /*Intentions*/
+  --primary: ;
+  --secondary: ;
+}
+.warm {
+  --primary: var(--light-amber);
+  --secondary: var(--dark-amber);
+  --accent: var(--orange);
+}
+.cool {
+  --primary: var(--light-blue);
+  --secondary: var(--dark-blue);
+  --accent: var(--purple);
+}
